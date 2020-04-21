@@ -6,6 +6,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.main {
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
 .container {
     max-width: auto;
     margin: auto;
@@ -24,14 +28,23 @@ body {
 .item {
     padding-left: 69px;
     padding-right: 69px;
-    border-left: 1px solid;
     color: whitesmoke;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .button {
     border: none;
     outline: none;
     background: transparent;
+    height: 80px;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -51,13 +64,15 @@ body {
     position: fixed;
     z-index: 9999;
 }
+
 .scrolled.headerMain {
     background-color: white;
 }
+
 .scrolled.item {
     color: black;
-    
 }
+
 .news-title {
     font-size: 48px;
     padding-left: 200px;
@@ -132,4 +147,53 @@ body {
 
 .social-link {
     margin-right: 21px;
+}
+
+.menu, .profile {
+    width: 210px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10pt;
+}
+
+.profile {
+    position: absolute;
+    display: none;
+}
+
+.menu-title {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-bottom: none;
+}
+.menu-title:hover {
+    color: #ffe;
+    background-color: #5488af;
+   }
+.main-title.scrolled{
+    color: black;
+}
+.first {
+    margin-top: 21px;
+}
+.main-title {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+li:hover ul {
+    display: block;
 }
