@@ -25,7 +25,7 @@ body {
     padding-left: 69px;
     padding-right: 69px;
     border-left: 1px solid;
-    color: #343434;
+    color: whitesmoke;
 }
 
 .button {
@@ -44,9 +44,46 @@ body {
     position: relative;
     bottom: 28px;
 }
+
 .header-main {
-    width:1400px;
+    width: 1350px;
     height: 100px;
     position: fixed;
     z-index: 9999;
+}
+
+.news-title {
+    font-size: 48px;
+    padding-left: 200px;
+    position: relative;
+    bottom: 30px;
+    color: #5A5994;
+}
+
+.news-card {
+    width: 1030px;
+    height: 210px;
+    margin-left: 200px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.news-img {
+    padding: 15px;
+}
+
+.news-headline {
+    position: relative;
+    font-size: 36px;
+}
+
+.news-text {
+    padding-right: 15px;
+    position: relative;
+    bottom: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
 }
