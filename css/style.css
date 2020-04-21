@@ -45,13 +45,19 @@ body {
     bottom: 28px;
 }
 
-.header-main {
+.headerMain {
     width: 1350px;
-    height: 100px;
+    height: 50px;
     position: fixed;
     z-index: 9999;
 }
-
+.scrolled.headerMain {
+    background-color: white;
+}
+.scrolled.item {
+    color: black;
+    
+}
 .news-title {
     font-size: 48px;
     padding-left: 200px;
