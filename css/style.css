@@ -44,7 +44,7 @@ body {
 }
 
 .button:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -56,6 +56,7 @@ body {
     margin: none;
     position: relative;
     bottom: 28px;
+    width: 1350px;
 }
 
 .headerMain {
@@ -166,21 +167,26 @@ body {
     display: block;
     padding: 5px;
     text-decoration: none;
-    color: #666;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
-    border-bottom: none;
+    color: #ffffff;
+    border-bottom: 1px solid #414141;
+    background-color: #4e4e4e;
+    font-weight: normal;
+    font-family: 'Roboto';
 }
+
 .menu-title:hover {
     color: #ffe;
     background-color: #5488af;
-   }
-.main-title.scrolled{
+}
+
+.main-title.scrolled {
     color: black;
 }
+
 .first {
     margin-top: 21px;
 }
+
 .main-title {
     display: block;
     padding: 5px;
