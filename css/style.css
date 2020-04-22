@@ -10,7 +10,8 @@ body {
     background: linear-gradient(380deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
 .logo {
-    width: 76px;
+    width: 95px;
+    height: 40px;
     padding: none;
     margin: none;
 }
@@ -38,15 +39,25 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    text-decoration: none;
 }
 
 .button {
     border: none;
     outline: none;
     background: transparent;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.button-prime {
+    border: none;
+    outline: none;
+    background: transparent;
     height: 80px;
 }
-
+.button-prime:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -69,7 +80,14 @@ body {
     position: fixed;
     z-index: 9999;
 }
-
+.headerMain-other {
+    width: 1350px;
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+}
+}
 .scrolled.headerMain {
     background-color: white;
 }
@@ -229,4 +247,64 @@ li:hover ul {
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    text-decoration: none;
+}
+.history {
+    padding-left: 69px;
+    padding-right: 69px;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+}
+.button-history {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+.history-card {
+    width: 1200px;
+    height: 370px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.history-section {
+    padding-top: 100px;
+    padding-left: 72px;
+}
+.history-img {
+    padding-right: 30px;
+    width: 600px;
+    height: 320px;
+}
+.history-headline {
+    font-size: 36px;
+    padding: none;
+    margin: none;
+    position: relative;
+    bottom: 35px;
+}
+.history-text {
+    position: relative;
+    bottom: 55px;
+}
+
+.logo-other {
+    width: 95px;
+    height: 40px;
+    padding: none;
+    margin: none;
+    padding-left: 30px;
+
 }
