@@ -7,9 +7,13 @@ body {
 }
 
 .main {
-    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+    background: linear-gradient(380deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
-
+.logo {
+    width: 76px;
+    padding: none;
+    margin: none;
+}
 .container {
     max-width: auto;
     margin: auto;
@@ -202,4 +206,27 @@ body {
 
 li:hover ul {
     display: block;
+}
+
+.not-main-title {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.not-main-items {
+    padding-left: 69px;
+    padding-right: 69px;
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
 }
