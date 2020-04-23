@@ -29,7 +29,14 @@ body {
     padding-top: 40px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
-
+.header-other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
 .item {
     padding-left: 69px;
     padding-right: 69px;
@@ -75,7 +82,7 @@ body {
 }
 
 .headerMain {
-    width: 1350px;
+    width: 1350px; 
     height: 50px;
     position: fixed;
     z-index: 9999;
@@ -87,7 +94,7 @@ body {
     z-index: 9999;
     background-color: white;
 }
-}
+
 .scrolled.headerMain {
     background-color: white;
 }
@@ -287,8 +294,9 @@ li:hover ul {
     padding-right: 30px;
     width: 600px;
     height: 320px;
+    flex:auto;
 }
-.history-headline {
+.history-headline { 
     font-size: 36px;
     padding: none;
     margin: none;
