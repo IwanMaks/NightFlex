@@ -9,6 +9,7 @@ body {
 .main {
     background: linear-gradient(380deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
+
 .logo {
     width: 95px;
     height: 40px;
@@ -16,6 +17,7 @@ body {
     margin: none;
     padding-left: 30px;
 }
+
 .container {
     max-width: auto;
     margin: auto;
@@ -30,14 +32,17 @@ body {
     padding-top: 40px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
+
 .header-other {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
     padding-top: 40px;
+    margin: none;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
+
 .item {
     padding-left: 69px;
     padding-right: 69px;
@@ -57,19 +62,21 @@ body {
     padding-top: 29px;
     padding-bottom: 29px;
 }
+
 .button-prime {
     border: none;
     outline: none;
     background: transparent;
     height: 80px;
 }
+
 .button-prime:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 .button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
-
 
 .main-img {
     padding: none;
@@ -80,15 +87,18 @@ body {
 }
 
 .headerMain {
-    width: 1350px; 
+    width: 1350px;
     height: 50px;
     position: fixed;
     z-index: 9999;
 }
+
 .headerMain-other {
     width: 1350px;
     height: 50px;
     position: fixed;
+    margin: none;
+    padding-top: none;
     z-index: 9999;
     background-color: white;
 }
@@ -243,6 +253,7 @@ li:hover ul {
     font-size: 18px;
     line-height: 28px;
 }
+
 .not-main-items {
     padding-left: 69px;
     padding-right: 69px;
@@ -254,6 +265,7 @@ li:hover ul {
     line-height: 28px;
     text-decoration: none;
 }
+
 .history {
     padding-left: 69px;
     padding-right: 69px;
@@ -265,6 +277,7 @@ li:hover ul {
     line-height: 28px;
     text-decoration: none;
 }
+
 .button-history {
     border: none;
     outline: none;
@@ -272,6 +285,7 @@ li:hover ul {
     padding-top: 29px;
     padding-bottom: 29px;
 }
+
 .history-card {
     width: 1200px;
     height: 370px;
@@ -282,28 +296,34 @@ li:hover ul {
     padding-right: 20px;
     display: flex;
     margin-bottom: 30px;
-
 }
+
 .history-section {
     padding-top: 100px;
     padding-left: 72px;
 }
+
 .history-img {
     padding-right: 30px;
-    width: 600px;
+    width: 500px;
     height: 320px;
-    flex:auto;
+    flex: 0 0 auto;
+    border-radius: 15px;
 }
-.history-headline { 
+
+.history-headline {
     font-size: 36px;
     padding: none;
     margin: none;
     position: relative;
     bottom: 35px;
+    flex: 0 0 auto;
 }
+
 .history-text {
     position: relative;
     bottom: 55px;
+    flex: 0 0 auto;
 }
 
 .logo-other {
@@ -312,5 +332,58 @@ li:hover ul {
     padding: none;
     margin: none;
     padding-left: 30px;
+}
 
+.pro {
+    position: relative;
+    top: 140px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-headline {
+    font-size: 36px;
+}
+
+.pro-text {
+    margin-right: 140px;
+    margin-top: 10px;
+}
+
+.profi {
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-top: 160px;
+    margin-left: 138px;
+    flex-basis: 28%;
+    padding: none;
+    text-decoration: none;
+    margin-right: 158px;
+}
+
+.prof {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+
+.profi-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: none;
+    padding-bottom: 30px;
+}
+
+.human {
+    padding-left: 55px;
+    position: relative;
+    bottom: 20px;
+    font-size: 26px;
 }
