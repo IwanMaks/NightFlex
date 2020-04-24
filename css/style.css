@@ -519,6 +519,8 @@ li:hover ul {
     border-radius: 15px;
     padding: 20px 30px 20px 30px;
     margin-left: 30px;
+    position: absolute;
+    left: 250px;
 }
 
 .line {
@@ -559,7 +561,21 @@ li:hover ul {
 .java {
     width: 420px;
 }
-
+.cat {
+    width: 530px;
+}
+.alco {
+    width: 250px;
+}
+.aero {
+    width: 200px;
+}
+.nad {
+    width:  400px;
+}
+.love {
+    width: 500px;
+}
 .humor-line {
     width: 640px;
     height: 13px;
@@ -611,4 +627,11 @@ li:hover ul {
 .lesha6 {
     width: 320px;
     height: 430px;
+}
+.value-max-sofa {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    width: 300px;
 }
