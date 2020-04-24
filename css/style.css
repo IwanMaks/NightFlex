@@ -356,12 +356,11 @@ li:hover ul {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     border-radius: 7px;
     overflow: hidden;
-    margin-top: 160px;
-    margin-left: 138px;
-    flex-basis: 28%;
     padding: none;
+    margin: 20px;
     text-decoration: none;
-    margin-right: 158px;
+    width: 460px;
+    height: 375px;
 }
 
 .prof {
@@ -370,20 +369,26 @@ li:hover ul {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 80px;
-    margin-top: 60px;
+    margin-right: 170px;
+    margin-left: 138px;
+    margin-top: 160px;
 }
 
 .profi-img {
-    width: 400px;
-    height: 300px;
+    width: 460px;
+    height: 350px;
     object-fit: cover;
     padding: none;
     padding-bottom: 30px;
 }
 
 .human {
-    padding-left: 55px;
+    padding-left: 105px;
     position: relative;
     bottom: 20px;
     font-size: 26px;
+    padding-bottom: none;
+}
+.gradient {
+    background: linear-gradient(380deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
