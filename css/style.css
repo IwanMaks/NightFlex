@@ -509,6 +509,7 @@ li:hover ul {
     padding-right: 211px;
     margin-bottom: 40px;
 }
+
 .area-line {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -546,15 +547,19 @@ li:hover ul {
     font-size: 24px;
     line-height: 28px;
 }
+
 .python {
     width: 480px;
 }
+
 .kotlin {
     width: 540px;
 }
+
 .java {
     width: 420px;
 }
+
 .humor-line {
     width: 640px;
     height: 13px;
@@ -563,38 +568,46 @@ li:hover ul {
     margin-right: 30px;
     margin-left: 30px;
 }
+
 .humor {
     width: 360px;
     height: 13px;
     background-color: #1E88E5;
     border-radius: 15px;
 }
+
 .lesha-galery {
     padding-left: 118px;
     margin-bottom: 30px;
 }
+
 .lesha1 {
     width: 400px;
     height: 320px;
     padding: none;
     margin: none;
 }
+
 .lesha2 {
     width: 260px;
     height: 320px;
 }
+
 .lesha3 {
     width: 440px;
     height: 320px;
 }
+
 .lesha4 {
     width: 300px;
     height: 430px;
 }
+
 .lesha5 {
     width: 480px;
     height: 430px;
 }
+
 .lesha6 {
     width: 320px;
     height: 430px;
