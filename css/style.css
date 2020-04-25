@@ -551,30 +551,26 @@ li:hover ul {
 }
 
 .python {
-    width: 480px;
-}
-
-.kotlin {
-    width: 540px;
+    width: 80%;
 }
 
 .java {
-    width: 420px;
+    width: 63%;
 }
 .cat {
-    width: 530px;
+    width: 90%;
 }
 .alco {
-    width: 250px;
+    width: 40%;
 }
 .aero {
-    width: 200px;
+    width: 30%;
 }
 .nad {
-    width:  400px;
+    width:  70%;
 }
 .love {
-    width: 500px;
+    width: 87%;
 }
 .humor-line {
     width: 640px;
@@ -586,7 +582,7 @@ li:hover ul {
 }
 
 .humor {
-    width: 360px;
+    width: 50%;
     height: 13px;
     background-color: #1E88E5;
     border-radius: 15px;
@@ -596,7 +592,13 @@ li:hover ul {
     padding-left: 118px;
     margin-bottom: 30px;
 }
-
+.norm-img {
+    overflow: hidden;
+    object-fit: cover;
+}
+.ideal {
+    width: 100%;
+}
 .lesha1 {
     width: 400px;
     height: 320px;
