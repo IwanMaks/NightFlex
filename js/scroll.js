@@ -13,3 +13,7 @@ $(window).on("scroll", function () {
         $(".logo").attr("src", "img/logo/logo.png");
     }
 });
+
+$('[data-fancybox]').fancybox({  //Защита
+	protect: true                //От
+});                              //Скачивания
