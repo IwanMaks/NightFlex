@@ -186,7 +186,6 @@ body {
 .social-link {
     margin-right: 21px;
 }
-
 .menu, .profile {
     width: 210px;
     list-style: none;
@@ -618,17 +617,17 @@ li:hover ul {
 
 .lesha4 {
     width: 300px;
-    height: 430px;
+    height: 320px;
 }
 
 .lesha5 {
     width: 480px;
-    height: 430px;
+    height: 320px;
 }
 
 .lesha6 {
     width: 320px;
-    height: 430px;
+    height: 320px;
 }
 .value-max-sofa {
     font-style: normal;
@@ -636,4 +635,9 @@ li:hover ul {
     font-size: 36px;
     line-height: 42px;
     width: 300px;
+}
+.main-galery {
+    padding-top: 120px;
+    padding-left: 138px;
+    margin-bottom: 60px;
 }
