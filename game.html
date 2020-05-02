@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ночной флекс - Игра</title>
+    <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon"> <!-- Иконка (логотип)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header-other headerMain-other">
+            <a href="index.html"><img src="img/logo/logo-black.png" alt="ночной флекс" class="logo-other"></a>
+            <div class="head-items">
+                <a href="history.html" class="button not-main-items">История</a>
+                <button class="button-prime">
+                    <ul class="menu">
+                        <li><a href="profiles.html" class="not-main-items">Профили</a>
+                            <ul class="profile">
+                                <li><a href="leha.html" class="menu-title first">Алексей Кузнеченков</a></li>
+                                <li><a href="sofa.html" class="menu-title">Софья Перфилова</a></li>
+                                <li><a href="prostochlen.html" class="menu-title">Иван Максаков</a></li>
+                                <li><a href="zibrik.html" class="menu-title">Анастасия Зиброва</a></li>
+                                <li><a href="bog.html" class="menu-title">Анастасия Богачёва</a></li>
+                                <li><a href="egor.html" class="menu-title">Егор Чуриков</a></li>
+                                <li><a href="stan.html" class="menu-title">Иван Становой</a></li>
+                                <li><a href="tolyan.html" class="menu-title">Толян</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </button>
+                <a href="galery.html" class="button not-main-items">Галерея</a>
+                <a href="game.html" class="button-history history">Игра</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="game-main">
+        <div class="game-not-main">
+            <h2 class="game">На сколько ты Софа?</h2>
+            <form>
+                <p>Как Тебя зовут?<br>
+                  <label>
+                    <input type="radio" name="name" value="0">
+                    Гоша</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="name" value="1">
+                    Соня</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="name" value="2">
+                    Софа</label>
+                  <br>
+                  <label>
+                    <input type="radio" name="name" value="0">
+                    Забыл</label>
+                </p>
+
+                <p>Ты любишь котиков?<br>
+                    <label>
+                      <input type="radio" name="kot" value="-1">
+                      Ненавижу</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="kot" value="0">
+                      Нет</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="kot" value="1">
+                      Да</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="kot" value="2">
+                      КОТИКИ ЭТО БОГИ!!!!</label>
+                  </p>
+
+                  <p>Ты любишь пить алкоголь?<br>
+                    <label>
+                      <input type="radio" name="gameAlco" value="-1">
+                      Ненавижу</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="gameAlco" value="0">
+                      Нет</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="gameAlco" value="1">
+                      Да</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="gameAlco" value="2">
+                      Я АЛКАШ, НЕДОНОШЕННЫЙ РЕБЁНОК БОМЖЕЙ</label>
+                  </p>
+
+                  <p>Какой лучший город на Земле?<br>
+                    <label>
+                      <input type="radio" name="city" value="-1">
+                      Норильск</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="city" value="0">
+                      Тула</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="city" value="1">
+                      Санкт-Петербург</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="city" value="2">
+                      Прокопьевск</label>
+                  </p>
+
+                  <p>Какое твоё тотемное животное?<br>
+                    <label>
+                      <input type="radio" name="animal" value="-1">
+                      Червяк</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="animal" value="0">
+                      Утконос</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="animal" value="1">
+                      Кот</label>
+                    <br>
+                    <label>
+                      <input type="radio" name="animal" value="2">
+                      Корги</label>
+                  </p>
+                  <input type="button" id="calc" class="join-button" name="result" value="Подсчитать результаты">
+            </form>
+        </div>
+    </div>
+    <div class="joinmodal">
+        <div class="joinmodaldialog">
+            <div class="modalNotSofaHeader">
+                <h1 class="modal-title">Вы никогда не будете Софой</h1>
+                <button class="joinClose">&times;</button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

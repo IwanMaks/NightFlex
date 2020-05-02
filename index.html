@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    
     <div class="container">
         <header class="header headerMain">
             <a href="index.html"><img src="img/logo/logo.png" alt="ночной флекс" class="logo"></a>
@@ -34,7 +35,7 @@
                     </ul>
                 </button>
                 <a href="galery.html" class="button item">Галерея</a>
-                <a href="#" class="button item">Игра</a>
+                <a href="game.html" class="button item">Игра</a>
             </div>
         </header>
     </div>
@@ -98,7 +99,7 @@
             <div class="footer-block">
                 <a href="index.html" class="logo"><img src="img/logo/logo-black.png" alt="ночной флекс" class="logo"></a>
                 <nav class="footer-nav">
-                    <a href="#" class="footer-link">Свяжитесь с нами</a>
+                    <button class="footer-link" id="join-button">Придумали и создали</button>
                 </nav>
                 <div class="social-links">
                     <a href="https://www.instagram.com/manchkin_sofa17/" target="_blank" class="social-link"> <img
@@ -109,9 +110,41 @@
             </div>
         </div>
     </footer>
+    <div class="joinmodal">
+        <div class="joinmodaldialog">
+            <div class="join-modal-header">
+                <h1 class="modal-title">Придумали и создали.</h1>
+                <button class="joinClose">&times;</button>
+            </div>
+            <div class="modal-body">
+               <div class="razraby">
+                   <div class="razrab">
+                       <img src="img/profiles/iwan/pic/iwan2ver.jpg" alt="ВАНЯ" class="picture">
+                       <div class="modal-text">
+                           <h3 class="modal-name">Иван Максаков</h3>
+                           <span class="modal-role"> 
+                               Автор идеи, главный верстальщик, просто хороший чувак. <br>
+                               Проживает в 1015а, кровать справа.
+                           </span>
+                        </div>
+                   </div>
+                   <div class="razrab zibr">
+                    <img src="img/profiles/zibrik/pic/zib4ver.jpg" alt="ВАНЯ" class="picture zib">
+                    <div class="modal-text">
+                        <h3 class="modal-name">Анастасия Зиброва</h3>
+                        <span class="modal-role"> 
+                            Автор идеи, главный дизайнер, просто прекрасная девушка. <br>
+                            Проживает в 1009б, первая кровать.
+                        </span>
+                     </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/scroll.js"></script>
-
+    <script src="js/modal.js"></script>
 </body>
 
 </html>
