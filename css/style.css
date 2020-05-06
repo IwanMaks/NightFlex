@@ -142,11 +142,16 @@ body {
     position: relative;
     font-size: 36px;
 }
-
+.news-text-main {
+    position: relative;
+    bottom: 20px;
+    text-overflow: ellipsis;
+}
 .news-text {
     padding-right: 15px;
+    text-overflow: ellipsis;
     position: relative;
-    bottom: 15px;
+    bottom: 30px;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -753,8 +758,45 @@ li:hover ul {
     position: relative;
     bottom: 10px;
 }
-
+.game {
+    padding-left: 25px;
+    padding-top: 3px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    width: 40%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
 .game-not-main {
     padding-top: 120px;
-    margin-left: 220px;
+    margin-left: 210px;
+    display: flex;
+    width: 88%;
+}
+
+
+.game-test {
+    border-top: 1px solid #414141;
+    padding-top: 15px;
+}
+
+.game-choice {
+    padding-left: 10px;
+}
+
+.game-first {
+    margin-bottom: 15px;
+}
+
+.game-first:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.label:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.form-first {
+    margin-right: 25px;
 }
